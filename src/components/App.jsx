@@ -21,7 +21,7 @@ export default function App() {
         setBad(bad + 1);
         break;
       default:
-        console.log(feedbackState);
+        console.log("There isn't such case");
     }
   };
 
