@@ -1,0 +1,18 @@
+.btnList {
+    display: flex;
+}
+
+.item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid;
+    box-shadow: 3px 3px 3px rgb(182, 174, 255);
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
